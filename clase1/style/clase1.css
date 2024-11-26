@@ -1,0 +1,62 @@
+/*_ Selectores básicos */
+/* 
+  - de tipo o etiqueta
+  - de clase
+  - de id
+*/
+
+p {
+  color: green;
+}
+
+.color-rojo {
+  color: red;
+}
+
+#color-rosa {
+  color: blue;
+}
+
+/* _Selectores de atributos */
+label {
+  color: blueviolet;
+}
+
+.verde {
+  color: green;
+}
+
+[type="email"] {
+  border: orange 2px solid;
+}
+
+[href="#"] {
+  color: aqua;
+}
+
+
+/* _selectores combinados */
+div .hijo-fav {
+  color: darkblue;
+}
+
+div .hijo-fav a {
+  color: crimson;
+}
+
+
+.soy-b {
+  color: #d2691e;
+}
+
+div .hijo-no-fav .soy-b {
+  color: cyan;
+}
+
+div .soy-b {
+  color: darkmagenta;
+}
+
+div .hijo-no-fav {
+  color: deeppink;
+}

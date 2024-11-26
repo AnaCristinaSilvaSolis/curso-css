@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clase 1</title>
+
+  <!-- linkear el css dentro de nuestro html -->
+  <link rel="stylesheet" href="./style/clase1.css">
+</head>
+
+<!-- mala práctica -->
+<!-- <style>
+  p {
+    color: blue;
+  }
+</style> -->
+
+<body>
+  <header>
+    <nav>
+      <li><a href="./pages/quienesSomos.html">Quienes somos</a></li>
+      <li><a href="#quienes-somos2">Quienes somos2</a></li>
+    </nav>
+  </header>
+
+
+  <h2>Sintaxis de CSS</h2>
+  <!-- mala práctica -->
+  <!-- <p style="color: red;">Selector - Propiedad - Valor</p> -->
+  <p>Selector - Propiedad - Valor</p>
+  <pre>
+    selector{
+      propiedad: valor;
+    }
+  </pre>
+
+
+  <h2>Selectores básicos</h2>
+  <p>Soy un selector de tipo o etiqueta y tengo el color verde</p>
+  <p class="color-rojo">Soy un selector de clase y tengo el color rojo</p>
+  <p id="color-rosa">Soy un selector de id y tengo el color azul</p>
+  <p>soy una p nueva</p>
+
+
+  <h2>Selectores de atributos</h2>
+  <form>
+    <label class="verde">Nombre:<input type="text"></label>
+    <label>Email:<input type="email"></label>
+    <label>Button:<input type="button" value="Enviar"></label>
+
+    <br>
+    <a href="#">hola</a>
+    <a href="">hola2</a>
+    <p href="#">hola soy p</p>
+
+  </form>
+
+  <br>
+
+  <h2>Selectores combinados</h2>
+  <div>Soy el padre
+    <p class="hijo-fav">Soy el hijo
+      <a href="">soy el hijo de p favorito, pero el nieto de div</a>
+      <b>soy el hijo de p favorito, pero el nieto de div</b>
+    </p>
+
+    <p class="hijo-no-fav">Soy el hijo del div, pero el hermano del p <br>
+      <b class="soy-b">soy el hijo del p no favorito y el nieto del div</b><br>
+      <b class="soy-b">soy el hijo del p no favorito y el nieto del div</b><br>
+    </p>
+  </div>
+
+
+  <br><br><br><br><br><br>
+
+</body>
+
+</html>
