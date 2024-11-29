@@ -35,7 +35,16 @@ label {
 }
 
 
-/* _selectores combinados */
+/* _ Selector hijo directo */
+.padre>li {
+  background-color: red;
+}
+
+/* _ Selectores descendientes */
+ol li a {
+  color: green;
+}
+
 div .hijo-fav {
   color: darkblue;
 }
@@ -44,10 +53,6 @@ div .hijo-fav a {
   color: crimson;
 }
 
-
-.soy-b {
-  color: #d2691e;
-}
 
 div .hijo-no-fav .soy-b {
   color: cyan;
@@ -59,4 +64,20 @@ div .soy-b {
 
 div .hijo-no-fav {
   color: deeppink;
+}
+
+/* _selectores hermanos */
+.hermanos {
+  border: 1px solid red;
+}
+
+div~span {
+  background-color: blue;
+}
+
+/* _Selector universal */
+/*¡todo: RETOMAR TEMA!! */
+
+*p {
+  color: red;
 }
