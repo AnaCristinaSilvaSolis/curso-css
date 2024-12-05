@@ -1,0 +1,64 @@
+#id {
+  color: green;
+}
+
+.id {
+  color: blue;
+}
+
+/* p {
+  color: blueviolet;
+} */
+
+#titulo {
+  color: blue;
+}
+
+.highlight {
+  color: green;
+}
+
+/* h1 {
+  color: red;
+} */
+
+.div {
+  font-size: 40px;
+  color: lightsalmon;
+  font-style: oblique;
+}
+
+.p {
+  color: blue;
+}
+
+.span {
+  color: inherit;
+}
+
+.span {
+  color: initial;
+}
+
+
+.parrafo {
+  color: red;
+}
+
+#parrafo {
+  color: violet;
+}
+
+.papa {
+  color: red;
+  font-size: 40px;
+}
+
+.parrafodelpapa {
+  font-size: 50px;
+}
+
+.a2 {
+  font-size: 30px;
+  color: magenta;
+}
