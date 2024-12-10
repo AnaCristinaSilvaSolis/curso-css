@@ -1,0 +1,111 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+
+.text1 {
+  color: #ff0000;
+}
+
+.text2 {
+  font-size: 24px;
+}
+
+.text3 {
+  font-weight: bold;
+}
+
+.text4 {
+  text-align: left;
+}
+
+.text5 {
+  text-transform: capitalize;
+}
+
+
+/* Fuente */
+.text6 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: solid green overline;
+}
+
+/* ejericio */
+.fruta {
+  color: green;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.mango {
+  color: blue;
+}
+
+.pera {
+  color: aquamarine;
+  font-size: 50px;
+}
+
+.manzana {
+  font-size: 50px;
+}
+
+/*_ tenemos 5 propiedades para los textos
+1.tamaño -> font-size
+2.color -> color
+3.alineación -> text-align
+4.transformación -> text-transform
+5.peso -> text-weight
+*/
+
+.banano {
+  font-size: 40px;
+  color: #000;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.sandia {
+  color: #ff0000;
+}
+
+.sandia {
+  color: blue;
+}
+
+#sandia {
+  color: blueviolet;
+}
+
+.abuelo-element {
+  border: solid blueviolet 2px;
+}
+
+.padre-element {
+  border: dashed lightcoral 3px;
+}
+
+.hermano-padre-element {
+  border: solid chocolate 4px;
+}
+
+#tio-element {
+  border: red solid 1px;
+}
+
+.tio-element {
+  border: #ffaaaa solid 1px;
+}
+
+.tio-element {
+  border: #ffffaa solid 1px;
+}
+
+#hermano-padre-element {
+  border: solid slateblue 4px;
+}
+
+#hermano-padre-element {
+  border: solid yellow 4px;
+}

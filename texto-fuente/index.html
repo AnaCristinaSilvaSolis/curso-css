@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Texto y fuente</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- fuente -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <h1>Texto</h1>
+  <p class="text1">Texto 1</p>
+  <p class="text2">Texto 2</p>
+  <p class="text3">Texto 3</p>
+  <p class="text4">Texto 4</p>
+  <p class="text5">texto texto</p>
+
+  <h1>Fuente</h1>
+  <p class="text6">Soy un párrafo</p>
+
+
+  <h1>Ejercicio</h1>
+  <!-- Herencia -->
+  <div class="fruta">
+    <ol>
+      <li class="mango">Mango: quiero ser azul</li>
+      <li class="pera">Pera: no quiero ser verde, quiero ser grande</li>
+      <li class="manzana">manzana: quiero ser grande y de la misma familia que mi papá</li>
+      <li class="banano">banano: personalizame con las 5 propiedades</li>
+
+      <!-- especificidad -->
+      <li id="sandia">Sandía: quiero todo lo de mi papá, pero quiero ser rojo</li>
+      <li class="sandia">Sandía: quiero todo lo de mi papá, pero quiero ser blue</li>
+      <li class="sandia">Sandía: quiero todo lo de mi papá, pero quiero ser blue</li>
+    </ol>
+    <br><br><br><br><br>
+
+    <div style="border: solid red 1px;">
+      <div class="abuelo-element">
+        <div class="padre-element">
+          <div class="element">Container</div>
+          <div class="element">Container2</div>
+        </div>
+
+        <!-- cascada -->
+        <div class="hermano-padre-element tio-element">Container</div>
+        <div class="hermano-padre-element tio-element">Container</div>
+
+        <!-- identificador -->
+        <div id="hermano-padre-element">Container</div>
+      </div>
+    </div>
+    <br><br><br><br><br>
+  </div>
+</body>
+
+</html>
