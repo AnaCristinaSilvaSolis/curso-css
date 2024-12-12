@@ -1,0 +1,116 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+.estatico {
+  background-color: black;
+  color: white;
+  height: 50px;
+  position: static;
+  top: 10px;
+  right: 20px;
+}
+
+.relativo {
+  margin-top: 10px;
+  background-color: chocolate;
+  color: white;
+  height: 50px;
+
+  position: relative;
+  left: 10px;
+}
+
+.absoluto {
+  /* margin-top: 10px; */
+  background-color: lightpink;
+  color: black;
+
+  position: absolute;
+  top: 10px;
+  right: 50px;
+
+}
+
+.padre {
+  background-color: burlywood;
+  position: relative;
+  height: 100px;
+}
+
+.fixed {
+  margin-top: 10px;
+  background-color: lightgreen;
+  color: black;
+
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+
+}
+
+.sticky {
+  margin-top: 10px;
+  background-color: grey;
+  color: black;
+
+  position: sticky;
+  top: 20px;
+
+}
+
+.z-index {
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+
+  position: absolute;
+  z-index: 1;
+
+}
+
+.wrapper {
+  position: relative;
+}
+
+.dashed-box {
+  position: relative;
+  background-color: wheat;
+  z-index: 1;
+  border: dashed;
+  height: 8em;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+
+.gold-box {
+  position: absolute;
+  z-index: 9999;
+  /* put .gold-box above .green-box and .dashed-box */
+  background: gold;
+  width: 80%;
+  left: 60px;
+  top: 48px;
+}
+
+.green-box {
+  position: absolute;
+  z-index: -2;
+  /* put .green-box above .dashed-box */
+  background: lightgreen;
+  width: 20%;
+  left: 10px;
+  top: -25px;
+  height: 7em;
+
+}
+
+#modal {
+  background-color: black;
+  color: #fff;
+  position: fixed;
+  left: 60px;
+  top: 48px;
+  z-index: 999;
+}
