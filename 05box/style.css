@@ -1,0 +1,11 @@
+.div-arriba {
+  /* margin: 10px 20px 40px 80px; */
+  border: 2px solid red;
+  padding: 5px 10px 20px 30px;
+  margin-top: 50px;
+}
+
+.div {
+  border: blue 2px;
+  margin: 30px 15px 0 0;
+}

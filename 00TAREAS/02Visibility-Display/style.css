@@ -1,0 +1,56 @@
+.blue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: blue;
+}
+
+.pink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  width: 80%;
+  height: 80%;
+  border: 5px solid black;
+}
+
+.violeta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: violet;
+  width: 80%;
+  height: 80%;
+  border: 5px solid black;
+}
+
+/* segundo ejercicio */
+.fucsia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: fuchsia;
+}
+
+.verdelimon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: limegreen;
+  width: 80%;
+  height: 80%;
+  border: 5px solid black;
+}
+
+.naranja {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  width: 80%;
+  height: 80%;
+  border: 5px solid black;
+}

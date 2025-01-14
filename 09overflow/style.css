@@ -1,0 +1,39 @@
+.overflow-visible {
+  width: 200px;
+  height: 100px;
+  overflow: visible;
+  /* El contenido que no cabe se muestra */
+  background: lightblue;
+  border: 2px solid blue;
+  padding: 10px;
+}
+
+.overflow-hidden {
+  width: 200px;
+  height: 100px;
+  overflow: hidden;
+  /* El contenido extra se corta */
+  background: lightgreen;
+  border: 2px solid green;
+  padding: 10px;
+}
+
+.overflow-scroll {
+  width: 200px;
+  height: 100px;
+  overflow: scroll;
+  /* Se agregan barras de desplazamiento */
+  background: lightcoral;
+  border: 2px solid red;
+  padding: 10px;
+}
+
+.overflow-auto {
+  width: 200px;
+  height: 100px;
+  overflow: auto;
+  /* Las barras aparecen solo si el contenido no cabe */
+  background: lightyellow;
+  border: 2px solid orange;
+  padding: 10px;
+}

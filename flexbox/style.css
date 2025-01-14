@@ -1,0 +1,71 @@
+/* _Display */
+.bloc {
+  display: inline;
+  background-color: lightgreen;
+}
+
+.inline {
+  display: block;
+  background-color: lightcoral;
+}
+
+.bloc2 {
+  display: inline-block;
+  background-color: lightblue;
+}
+
+/* _Estructura básica */
+.container {
+  display: flex;
+  background-color: aquamarine;
+  height: 50px;
+}
+
+
+/* _PROPIEDADES DEL CONTENEDOR PADRE */
+/* flex-direction */
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  flex-direction: row-reverse;
+  flex-direction: column;
+  flex-direction: column-reverse;
+  background-color: salmon;
+  height: 50px;
+}
+
+/* justify-content */
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-content: center;
+  justify-content: flex-end;
+  justify-content: space-between;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  background-color: green;
+  height: 100px;
+}
+
+/* align-items */
+
+
+/* align-content */
+
+
+/* _PROPIEDADES DEL HIJO */
+/* flex-grow */
+
+
+
+/* flex-shrink */
+
+
+
+/* flex-basis */
+
+
+
+/* order */

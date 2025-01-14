@@ -1,0 +1,33 @@
+.blue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: blue;
+}
+
+.pink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  width: 80%;
+  height: 80%;
+  border: 5px solid black;
+}
+
+.green {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lime;
+  width: 80%;
+  height: 80%;
+  border: 5px solid black;
+}
+
+.black {
+  background-color: black;
+  width: 200px;
+  height: 100px;
+}

@@ -10,7 +10,7 @@
 }
 
 .text3 {
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .text4 {
@@ -54,7 +54,7 @@
 1.tamaño -> font-size
 2.color -> color
 3.alineación -> text-align
-4.transformación -> text-transform
+4.transformación -> text-transform  (lowercase uppercase capitalize)
 5.peso -> text-weight
 */
 

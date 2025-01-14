@@ -1,0 +1,37 @@
+.nombre {
+  color: red;
+}
+
+.rgb {
+  color: rgb(255, 255, 255);
+}
+
+.rgb {
+  color: rgba(255, 0, 0, 0.7);
+}
+
+.hex {
+  color: #ff0000;
+}
+
+.hsl {
+  color: rgb(17, 9, 245);
+}
+
+/* fondos de colores */
+.nombre {
+  background-color: chocolate;
+}
+
+.img {
+  height: 500px;
+  width: 500px;
+  border: solid 1px red;
+
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf_xizgQjEpWIz4iOC7j7twSZ45-fS3xqIUA&s"); */
+  background-image: url("https://via.placeholder.com/500x500");
+  background-size: contain;
+  /* background-position: background-position: center center; */
+  /* background-attachment: fixed; */
+
+}

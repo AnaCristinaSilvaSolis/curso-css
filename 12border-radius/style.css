@@ -1,0 +1,59 @@
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  border-radius: 20px;
+  /* Esquinas redondeadas con un radio de 20px */
+  padding: 20px;
+  border: 2px solid blue;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: lightcoral;
+  border-radius: 50%;
+  /* Esquinas redondeadas hasta formar un círculo */
+  text-align: center;
+  line-height: 100px;
+  /* Centra el texto verticalmente */
+  color: white;
+}
+
+.rounded-corners {
+  width: 200px;
+  height: 100px;
+  background-color: lightgreen;
+  border-top-left-radius: 20px;
+  /* Solo redondea la esquina superior izquierda */
+  border-bottom-right-radius: 20px;
+  /* Solo redondea la esquina inferior derecha */
+  padding: 20px;
+  border: 2px solid green;
+}
+
+.custom-rounded {
+  width: 200px;
+  height: 100px;
+  background-color: lightyellow;
+  border-radius: 20px 50px 10px 30px;
+  /* Valores diferentes para cada esquina (arriba-izquierda, arriba-derecha, abajo-derecha, abajo-izquierda) */
+  padding: 20px;
+  border: 2px solid yellow;
+}
+
+.rounded-image {
+  width: 200px;
+  height: 100px;
+  background-image: url('https://via.placeholder.com/200x100');
+  /* Imagen de fondo */
+  background-size: cover;
+  /* Hace que la imagen cubra todo el espacio */
+  border-radius: 20px;
+  /* Redondea las esquinas */
+  padding: 20px;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  /* Centra el texto */
+}

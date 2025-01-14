@@ -1,0 +1,36 @@
+.block {
+  display: block;
+  background: lightblue;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+/* son elementos que no ocuparán todo el ancho de la pantalla, pero no se les puede dar ancho y alto */
+.inline {
+  display: inline;
+  background: pink;
+  margin: 5px;
+  padding: 5px;
+}
+
+/* son elementos que no ocuparán todo el ancho de la pantalla,
+pero no si les puede dar ancho y alto */
+.inline-block {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  background: orange;
+  margin: 5px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+  background: lightgreen;
+  padding: 10px;
+}

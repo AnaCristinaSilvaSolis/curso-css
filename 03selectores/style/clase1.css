@@ -26,7 +26,7 @@ label {
   color: green;
 }
 
-[type="email"] {
+[type="text"] {
   border: orange 2px solid;
 }
 
@@ -37,7 +37,7 @@ label {
 
 /* _ Selector hijo directo */
 .padre>li {
-  background-color: red;
+  color: red;
 }
 
 /* _ Selectores descendientes */
@@ -53,10 +53,10 @@ div .hijo-fav a {
   color: crimson;
 }
 
-
 div .hijo-no-fav .soy-b {
   color: cyan;
 }
+
 
 div .soy-b {
   color: darkmagenta;
@@ -75,9 +75,22 @@ div~span {
   background-color: blue;
 }
 
+span~p {
+  color: red;
+}
+
 /* _Selector universal */
 /*¡todo: RETOMAR TEMA!! */
 
 *p {
   color: red;
+}
+
+/* prueba */
+.prueba {
+  border: green solid 2px;
+}
+
+.prueba {
+  border: red solid 2px;
 }
