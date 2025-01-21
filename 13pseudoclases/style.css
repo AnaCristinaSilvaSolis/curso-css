@@ -1,0 +1,27 @@
+.button {
+  background-color: lightblue;
+  padding: 10px 20px;
+  border: none;
+}
+
+/* .button:hover {
+  background-color: fuchsia;
+  border-radius: 50%;
+  color: orange;
+  padding: 100px;
+} */
+
+input[type="checkbox"]:checked {
+  box-shadow: 0 0 0 3px hotpink;
+}
+
+a {
+  background-color: white;
+  border: 1px solid white;
+}
+
+a:visited {
+  background-color: yellow;
+  border-color: hotpink;
+  color: hotpink;
+}

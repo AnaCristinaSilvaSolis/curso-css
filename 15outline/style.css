@@ -1,0 +1,51 @@
+.input {
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+.input:focus {
+  outline: 2px solid blue;
+  /* Aplica contorno azul al enfocar */
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  background-color: lightcoral;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  outline: 3px dashed black;
+  /* Aplica un contorno punteado al pasar el ratón */
+  outline-offset: 5px;
+  /* Separa el contorno del elemento */
+}
+
+
+
+
+/* _ejemplo 2 */
+.special-button {
+  padding: 15px 30px;
+  border: none;
+  background-color: darkorange;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: outline 0.3s ease;
+  /* Suaviza el efecto de outline */
+}
+
+.special-button:focus {
+  outline: 4px solid limegreen;
+  /* Contorno verde al enfocar */
+  outline-offset: 5px;
+  /* Separa el contorno del botón */
+}
+
+.special-button:hover {
+  outline: 2px solid red;
+  /* Contorno rojo al pasar el ratón */
+}

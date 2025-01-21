@@ -6,18 +6,26 @@
   border: 2px solid blue;
 }
 
-/* .semi-transparent {
+.semi-transparent {
   opacity: 0.5;
   background: lightgreen;
   padding: 10px;
   margin: 10px;
   border: 2px solid green;
-} */
+}
 
-/* .invisible {
+.invisible {
   opacity: 0;
   background: lightcoral;
   padding: 10px;
   margin: 10px;
   border: 2px solid red;
-} */
+}
+
+.opaque2 {
+  opacity: 0.9;
+  background: lightcoral;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid red;
+}

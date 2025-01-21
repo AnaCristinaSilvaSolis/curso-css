@@ -1,0 +1,39 @@
+.text::first-letter {
+  font-size: 50px;
+  color: green;
+}
+
+.text::before {
+  content: "📌👀⁉";
+}
+
+.text::after {
+  content: " -> 🎉";
+}
+
+
+/* - combinacion */
+.styled-button {
+  background-color: lightcoral;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.styled-button:hover {
+  background-color: darkred;
+}
+
+.styled-button::before {
+  content: "🔥 ";
+  left: -25px;
+}
+
+.styled-button:focus {
+  outline: 2px solid orange;
+}
+
+p::first-line {
+  color: red;
+}
