@@ -1,0 +1,36 @@
+/* Lista con viñetas cuadradas */
+.list-one {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* Lista numerada con números romanos */
+.list-two {
+  list-style-type: upper-roman;
+  padding-left: 30px;
+}
+
+/* Lista con marcador fuera */
+.position-example li {
+  list-style-position: outside;
+  border: 2px solid red;
+}
+
+/* Lista con marcador dentro */
+.position-example li:nth-child(2) {
+  list-style-position: inside;
+}
+
+.image-list {
+  list-style-image: url('../assets/bg-green.png');
+  padding-left: 40px;
+}
+
+.custom-list {
+  list-style: circle outside url('../assets/bg-green.png');
+  border: solid 2px red;
+  /* Combina:
+     - `circle` como viñeta si falla la imagen,
+     - `inside` para alinear la viñeta,
+     - Una imagen como viñeta. */
+}

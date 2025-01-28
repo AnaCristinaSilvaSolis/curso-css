@@ -5,7 +5,6 @@
 
 .input:focus {
   outline: 2px solid blue;
-  /* Aplica contorno azul al enfocar */
 }
 
 .button {
@@ -34,18 +33,13 @@
   color: white;
   font-size: 16px;
   cursor: pointer;
-  transition: outline 0.3s ease;
-  /* Suaviza el efecto de outline */
 }
 
 .special-button:focus {
   outline: 4px solid limegreen;
-  /* Contorno verde al enfocar */
   outline-offset: 5px;
-  /* Separa el contorno del botón */
 }
 
 .special-button:hover {
   outline: 2px solid red;
-  /* Contorno rojo al pasar el ratón */
 }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h2>Estructura básica de un formulario</h2>
+  <form method="POST">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje"></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <h2>Propiedades comunes en CSS para formularios</h2>
+  <ul>
+    <li>width y max-width: Ancho del formulario.</li>
+    <li>padding y margin: Espaciado interno y externo.</li>
+    <li>border y border-radius: Bordes y esquinas redondeadas.</li>
+    <li>background-color y color: Colores del fondo y del texto.</li>
+    <li>font-size y font-family: Tipografía y tamaño del texto.</li>
+  </ul>
+
+  <form class="mi-formulario">
+    <h2>Regístrate</h2>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+
+    <label for="correo">Correo Electrónico:</label>
+    <input type="email" id="correo" name="correo" placeholder="ejemplo@email.com">
+
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" name="password" placeholder="Escribe tu contraseña">
+
+    <label for="pais">País:</label>
+    <select id="pais" name="pais">
+      <option value="colombia">Colombia</option>
+      <option value="mexico">México</option>
+      <option value="españa">España</option>
+    </select>
+
+    <label>
+      <input type="checkbox" name="terminos"> Acepto los términos y condiciones
+    </label>
+
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+
+</html>

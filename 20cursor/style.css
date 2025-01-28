@@ -1,0 +1,28 @@
+.default {
+  cursor: default;
+  /* Cursor normal */
+}
+
+.pointer {
+  cursor: pointer;
+  /* Mano para elementos clickeables */
+}
+
+.text {
+  cursor: text;
+  /* Barra de texto */
+}
+
+.not-allowed {
+  cursor: not-allowed;
+  /* No permitido */
+}
+
+.custom {
+  cursor: url('../assets/bg-green.png'), auto;
+  /* Cursor personalizado */
+  /* 
+    url(): Ruta de la imagen que quieres usar como cursor. 
+    auto: Cursor predeterminado si la imagen no se carga.
+  */
+}

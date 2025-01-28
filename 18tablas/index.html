@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tablas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h2>Elementos básicos de una tabla</h2>
+  <table>
+    <tr>
+      <th>Celdas de encabezado 1</th>
+      <th>Celdas de encabezado 2</th>
+    </tr>
+    <tr>
+      <td>Celdas de datos 1</td>
+      <td>Celdas de datos 2</td>
+    </tr>
+  </table>
+
+
+  <h2>Propiedades de estilo comunes para tablas</h2>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child" target="_blank"
+    rel="noopener noreferrer">Documentación oficial</a>
+  <ul>
+    <li>border: Para bordes.</li>
+    <li>border-spacing: Separación entre las celdas (si no usas border-collapse: collapse)</li>
+    <li>padding: Espaciado dentro de las celdas.</li>
+    <li>text-align: Alineación del texto.</li>
+    <li>width y height: Ajustar el tamaño de la tabla o celdas.</li>
+    <li>background-color: Colores de fondo.</li>
+    <li>border-collapse: collapse;: Combina los bordes de las celdas para que se vean como una línea continua.</li>
+    <li>nth-child(even): Aplica estilos a las filas pares, creando un efecto de "zebra".</li>
+  </ul>
+
+  <table>
+    <tr>
+      <th>Nombre</th>
+      <th>Edad</th>
+      <th>País</th>
+    </tr>
+    <tr>
+      <td>Juan</td>
+      <td>25</td>
+      <td>España</td>
+    </tr>
+    <tr>
+      <td>María</td>
+      <td>30</td>
+      <td>Argentina</td>
+    </tr>
+    <tr>
+      <td>María</td>
+      <td>30</td>
+      <td>Argentina</td>
+    </tr>
+    <tr>
+      <td>María</td>
+      <td>30</td>
+      <td>Argentina</td>
+    </tr>
+  </table>
+
+  <table class="tabla-sombras">
+    <thead>
+      <tr>
+        <th>Producto</th>
+        <th>Precio</th>
+        <th>Categoría</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Laptop</td>
+        <td>$800</td>
+        <td>Electrónica</td>
+      </tr>
+      <tr>
+        <td>Camisa</td>
+        <td>$20</td>
+        <td>Ropa</td>
+      </tr>
+      <tr>
+        <td>Teléfono</td>
+        <td>$600</td>
+        <td>Electrónica</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+</body>
+
+</html>

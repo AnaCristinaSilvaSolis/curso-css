@@ -1,0 +1,58 @@
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: #f0f0f0;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  border: 1px solid #ddd;
+  box-shadow: 10px 10px 20px #00000033;
+}
+
+.multi-shadow {
+  width: 200px;
+  height: 100px;
+  background-color: #add8e6;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  border-radius: 10px;
+  /* box-shadow: 5px 5px 0px #0000fe4d, -5px -5px 0px #dd070780; */
+  box-shadow: 5px 0px 0px #0000fe4d, -5px 0px 0px #dd070780, 0px 5px 0px #e1ff0080, 0px -5px 0px #01150280;
+
+}
+
+.inset-shadow {
+  width: 200px;
+  height: 100px;
+  background-color: #ffcccb;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  border-radius: 5px;
+  box-shadow: inset 5px 5px 0px #0000004d;
+  /* con inset, funciona en viceversa, es decir, derecha negativo, arriba positivo (es decir, empuja hacia arriba)*/
+}
+
+.full-shadow {
+  width: 250px;
+  height: 150px;
+  background-color: #fff;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 15px 20px 30px 50px rgba(0, 0, 0, 0.5);
+  /* 
+    15px: La sombra se desplaza 15px hacia la derecha. 
+    20px: La sombra se desplaza 20px hacia abajo. 
+    30px: La sombra está difuminada en 30px. 
+    30px: La sombra se expande 5px más allá del elemento. 
+    rgba(0, 0, 0, 0.5): La sombra es negra con un 50% de opacidad.
+  */
+}

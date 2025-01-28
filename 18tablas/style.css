@@ -1,0 +1,60 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 8px;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #333;
+}
+
+tr:hover {
+  background-color: #fa6900;
+}
+
+/* Tabla con bordes redondeados y sombra */
+.tabla-sombras {
+  width: 30px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Verdana, sans-serif;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px #02fb23;
+}
+
+/* Encabezado de la tabla */
+.tabla-sombras th {
+  background-color: #333;
+  color: white;
+  padding: 12px;
+}
+
+/* Celdas */
+.tabla-sombras td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+/* Filas alternas */
+.tabla-sombras tr:nth-child(even) {
+  background-color: #333;
+}
+
+/* Cambiar color al pasar el mouse */
+.tabla-sombras tr:hover {
+  background-color: #ddd;
+}

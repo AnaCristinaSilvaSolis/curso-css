@@ -1,0 +1,56 @@
+/* Definimos las variables en :root para que sean globales */
+:root {
+  --color-primario: #4caf50;
+  --color-secundario: #ffffff;
+  --fuente-principal: 'Arial', sans-serif;
+  --espaciado: 10px;
+  --main-padding: 20px;
+}
+
+/* Usamos las variables */
+body {
+  font-family: var(--fuente-principal);
+  background-color: var(--color-secundario);
+  margin: var(--espaciado);
+}
+
+h1 {
+  color: var(--color-primario);
+  text-align: center;
+}
+
+.boton {
+  background-color: var(--color-primario);
+  color: var(--color-secundario);
+  padding: var(--espaciado);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: darkgreen;
+}
+
+/* FUNCIONES */
+/* Ejemplo con calc() */
+.caja {
+  width: calc(50% - 20px);
+  /* Calcula el ancho como el 50% del contenedor menos 20px */
+  height: 100px;
+  background-color: lightblue;
+  margin: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Ejemplo con rgba() */
+.colores {
+  background-color: rgba(255, 0, 0, 0.5);
+  /* Rojo con 50% de opacidad */
+  color: white;
+  padding: calc(var(--main-padding) * 1);
+  text-align: center;
+  font-size: 18px;
+}
