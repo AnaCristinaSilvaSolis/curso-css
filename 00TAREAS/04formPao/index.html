@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario registro</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <h1>Contacto</h1>
+  <div class="container">
+    <!-- _ como buena práctica se debe tener solo 1 etiqueta form por formulario. -->
+    <form class="formulario">
+      <!-- _ el nombre del for en el label debe ser exactamente igual a el id y name en el input o textarea, para que el navegador reconozca la conexión entre ellos -->
+      <label for="fname">Nombre</label>
+      <input type="text" id="fname" name="fname" value="">
+
+      <label for="email">Correo electrónico:</label>
+      <input type="text" id="email" name="email" value="">
+
+      <label for="message">Mensaje</label>
+      <textarea id="message" name="message"> </textarea>
+
+      <input type="submit" class="button"></input>
+      <!-- _ en los botones del formulario siempre el botón debe ser type submit -->
+    </form>
+  </div>
+
+</body>
+
+</html>

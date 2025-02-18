@@ -1,10 +1,17 @@
 /* Definimos las variables en :root para que sean globales */
 :root {
-  --color-primario: #4caf50;
+  --color-primario: #4c2882;
   --color-secundario: #ffffff;
   --fuente-principal: 'Arial', sans-serif;
   --espaciado: 10px;
   --main-padding: 20px;
+}
+
+
+
+.dominado {
+  background-color: brown;
+  color: #ffffff;
 }
 
 /* Usamos las variables */
@@ -29,6 +36,7 @@ h1 {
   cursor: pointer;
 }
 
+
 .boton:hover {
   background-color: darkgreen;
 }
@@ -37,12 +45,16 @@ h1 {
 /* Ejemplo con calc() */
 .caja {
   width: calc(50% - 20px);
-  /* Calcula el ancho como el 50% del contenedor menos 20px */
-  height: 100px;
+  height: calc(100vh - 1px);
   background-color: lightblue;
   margin: 10px;
   text-align: center;
   font-size: 18px;
+}
+
+.caja2 {
+  width: calc(427.5px * 4);
+  background-color: red;
 }
 
 /* Ejemplo con rgba() */
@@ -53,4 +65,17 @@ h1 {
   padding: calc(var(--main-padding) * 1);
   text-align: center;
   font-size: 18px;
+}
+
+
+
+.element {
+  --x: 25px;
+  --y: calc(var(--x) * -1);
+
+  width: 50px;
+  height: 50px;
+  background: indigo;
+
+  transform: translate(var(--x), var(--y));
 }

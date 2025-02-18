@@ -8,6 +8,10 @@
   /* Mano para elementos clickeables */
 }
 
+button {
+  cursor: pointer;
+}
+
 .text {
   cursor: text;
   /* Barra de texto */
@@ -19,7 +23,7 @@
 }
 
 .custom {
-  cursor: url('../assets/bg-green.png'), auto;
+  cursor: url('../assets/actividad1.jpg'), auto;
   /* Cursor personalizado */
   /* 
     url(): Ruta de la imagen que quieres usar como cursor. 
