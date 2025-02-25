@@ -1,0 +1,66 @@
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  animation: fade 2s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(100px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  animation: move 3s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0) scale(1) rotate(0deg);
+  }
+
+  25% {
+    transform: translateY(-30px) scale(1.1) rotate(10deg);
+  }
+
+  50% {
+    transform: translateY(0) scale(1) rotate(0deg);
+  }
+
+  75% {
+    transform: translateY(-15px) scale(1.05) rotate(-5deg);
+  }
+
+  100% {
+    transform: translateY(0) scale(1) rotate(0deg);
+  }
+}
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  animation: bounce 1.5s ease-in-out infinite;
+}

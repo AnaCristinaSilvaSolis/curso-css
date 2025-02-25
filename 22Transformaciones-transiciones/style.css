@@ -1,0 +1,75 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  transform: rotate(45deg);
+}
+
+.box2-1 {
+  background-color: blueviolet;
+  width: 100px;
+  height: 100px;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  transform: scale(1.5) translate(100px, 5px);
+}
+
+.container {
+  perspective: 500px;
+}
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  transform: rotateY(45deg);
+}
+
+
+.box4 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transition: background-color 1s;
+  /* 
+  nombre de la propiedad a aplicar la transicion - 
+  duración o tiempo (en segundos) - 
+  tiempo de espera o delay - 
+  timing-function */
+}
+
+.box4:hover {
+  background-color: red;
+}
+
+
+.box5 {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transition: transform 2s ease-in-out, opacity 0.5s;
+  /* los tiempos solo se le aplican a las propiedad.
+  las propiedades van separadas por una coma y SIEMPRE debe tener como mínimo la duración */
+}
+
+.box5:hover {
+  transform: scale(1.2);
+  opacity: 0.5;
+  /* aca bajo es donde se le indica el valor a esas propiedades */
+}
+
+.box6 {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  transition: transform 1s ease-in-out, background-color 1s ease-in-out;
+}
+
+.box6:hover {
+  transform: translateX(50px) rotate(20deg);
+  background-color: pink;
+}

@@ -1,0 +1,76 @@
+:root {
+  --height: 60px;
+  --margin: 10px 30px 10px 10px;
+  --borde: 3px black solid;
+  --colorRojo: red;
+  --colorVioleta: blueviolet;
+  --colorAmarillo: yellow;
+}
+
+
+.container {
+  width: 75%;
+  background-color: #c8b4f5;
+  border: 1px black solid;
+}
+
+
+.sticky {
+  height: var(--height);
+  position: sticky;
+  top: 0;
+  background-color: var(--colorRojo);
+  border: var(--borde);
+  margin: var(--margin);
+
+}
+
+.nothing1 {
+  height: var(--height);
+  background-color: var(--colorVioleta);
+  border: var(--borde);
+  margin: var(--margin);
+
+
+}
+
+.nothing2 {
+  height: var(--height);
+  background-color: var(--colorRojo);
+  border: var(--borde);
+  margin: var(--margin);
+
+}
+
+.fixed {
+  height: var(--height);
+  background-color: var(--colorAmarillo);
+  margin: var(--margin);
+  /*esto es para centrar en vertical*/
+
+  border: 3px dashed red;
+}
+
+.porcentaje {
+  height: var(--height);
+  background-color: var(--colorVioleta);
+  border: var(--borde);
+  width: calc(50% - 50px);
+  margin: var(--margin);
+}
+
+
+.multiplicado {
+  height: var(--height);
+  background-color: var(--colorRojo);
+  border: var(--borde);
+  width: calc((50% - 50px) * 4);
+  margin: var(--margin);
+}
+
+.nothing3 {
+  height: var(--height);
+  background-color: var(--colorAmarillo);
+  border: var(--borde);
+  margin: var(--margin);
+}
