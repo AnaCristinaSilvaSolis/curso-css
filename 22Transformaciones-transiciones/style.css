@@ -73,3 +73,16 @@
   transform: translateX(50px) rotate(20deg);
   background-color: pink;
 }
+
+.delay {
+  background-color: aqua;
+  color: black;
+  width: 300px;
+  height: 300px;
+  transition: background-color 1s, color 2s 1000ms;
+}
+
+.delay:hover {
+  background-color: black;
+  color: white;
+}
