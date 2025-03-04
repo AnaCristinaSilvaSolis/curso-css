@@ -1,66 +1,79 @@
-@keyframes fade {
-  from {
-    opacity: 0;
+@keyframes cambio-de-color {
+  0% {
+    background-color: red;
   }
 
-  to {
-    opacity: 1;
+  100% {
+    background-color: blue;
   }
 }
 
-.box {
+/* .box {
   width: 100px;
   height: 100px;
-  background-color: lightblue;
-  animation: fade 2s ease-in-out infinite alternate;
-}
+  animation-name: cambio-de-color;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+} */
 
-@keyframes move {
+@keyframes ejemplo-completo {
   0% {
+    background-color: red;
     transform: translateX(0);
   }
 
   50% {
+    background-color: yellow;
     transform: translateX(100px);
   }
 
   100% {
+    background-color: green;
     transform: translateX(0);
   }
 }
 
-.box2 {
+/* .box2 {
   width: 100px;
   height: 100px;
-  background-color: coral;
-  animation: move 3s ease-in-out infinite;
-}
+  background-color: red;
+  animation-name: ejemplo-completo;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+  animation-play-state: running;
+} */
 
-@keyframes bounce {
+@keyframes cambiar-color {
   0% {
-    transform: translateY(0) scale(1) rotate(0deg);
-  }
-
-  25% {
-    transform: translateY(-30px) scale(1.1) rotate(10deg);
-  }
-
-  50% {
-    transform: translateY(0) scale(1) rotate(0deg);
-  }
-
-  75% {
-    transform: translateY(-15px) scale(1.05) rotate(-5deg);
+    background-color: red;
   }
 
   100% {
-    transform: translateY(0) scale(1) rotate(0deg);
+    background-color: blue;
   }
 }
 
-.box3 {
+@keyframes mover {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(200px);
+  }
+}
+
+/* .box3 {
   width: 100px;
   height: 100px;
-  background-color: lightgreen;
-  animation: bounce 1.5s ease-in-out infinite;
-}
+  animation-name: cambiar-color, mover;
+  animation-duration: 2s, 4s;
+  animation-timing-function: ease-in-out, linear;
+  animation-iteration-count: infinite, 2;
+} */
